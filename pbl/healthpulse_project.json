@@ -1,0 +1,83 @@
+{
+  "project_metadata": {
+    "project_name": "HealthPulse",
+    "project_subtitle": "Symptom Tracking System",
+    "category": "Healthcare & Personal Wellness",
+    "platform": "Lightweight Python Console Application (Extensible to GUI or Web)",
+    "version": "1.0.0",
+    "storage_format": "JSON (Persistent) / CSV (Export)",
+    "user_email": "richitha132@gmail.com"
+  },
+  "project_description": "HealthPulse – Symptom Tracking System is an innovative Python-based application designed to solve real-life challenges. This system provides users with a simple yet powerful interface to manage, track, or monitor specific activities. Developed entirely in Python, it leverages concepts such as lists, dictionaries, loops, file handling, and modular programming to deliver functionality. Users interact through a menu-driven interface that supports multiple operations including data entry, updates, reports, and summaries. Data is stored persistently in files (TXT/JSON) ensuring continuity across sessions.",
+  "uniqueness": "The uniqueness of HealthPulse – Symptom Tracking System lies in its creative use-case design, aimed at bridging academic learning with practical needs. It allows students to not only implement Python concepts but also innovate around user experience, customization, and extensibility. This project enhances critical thinking, debugging, and modular design practices while offering a valuable real-world tool. It serves as both a coding exercise and a productivity enabler, motivating students to push their boundaries beyond traditional projects.",
+  "key_features": {
+    "manage_entities": {
+      "title": "Manage entities",
+      "description": "You can add, view, update and delete symptom entries.",
+      "operations": [
+        "Add: Log new symptom with name, category, severity (1-10), duration, triggers, and notes",
+        "View: Formatted display of all logged symptom entries with timestamps",
+        "Update: Modify severity, triggers, notes, or details of existing entries",
+        "Delete: Safely remove symptom records with confirmation"
+      ]
+    },
+    "categorization_and_filtering": {
+      "title": "Categorization and filtering",
+      "description": "Entries are grouped into 7 categories, and you can filter by category, keyword, minimum severity or date range.",
+      "categories_count": 7,
+      "categories": [
+        "Neurological",
+        "Respiratory",
+        "Digestive",
+        "Musculoskeletal",
+        "Cardiovascular",
+        "Dermatological",
+        "General"
+      ],
+      "filtering_options": [
+        "Filter by category",
+        "Filter by keyword (search symptom name, triggers, or notes)",
+        "Filter by minimum severity (threshold e.g. >= 5)",
+        "Filter by date range (start date to end date)"
+      ]
+    },
+    "persistent_storage": {
+      "title": "Persistent storage",
+      "description": "Data is kept between sessions in JSON, and you can export it to CSV.",
+      "storage_engine": "JSON (symptoms_data.json)",
+      "export_engine": "CSV (symptoms_export.csv)",
+      "continuity": "Automatic serialization and deserialization across application sessions"
+    },
+    "summarized_reports": {
+      "title": "Summarized reports",
+      "description": "The dashboard shows top symptoms, category breakdown, weekly trend and likely triggers. It also flags any severity of 8 or higher in the last 7 days.",
+      "dashboard_metrics": [
+        "Top Symptoms: Most frequent symptoms ranked by occurrence",
+        "Category Breakdown: Distribution of symptoms across the 7 categories",
+        "Weekly Trend: Day-by-day frequency and average severity over the past 7 days",
+        "Likely Triggers: Most common triggers correlated with symptom onset",
+        "Critical Health Flag: Automatically alerts and flags any severity of 8 or higher recorded in the last 7 days"
+      ]
+    },
+    "lightweight": {
+      "title": "Lightweight",
+      "description": "It is a console app that could later be extended to a GUI or web version, as your 'Expected Outcome' section suggests.",
+      "architecture": "Pure Python console-based system with zero heavy dependencies",
+      "extensibility": "Scalable into GUI (Tkinter) or full-stack web solutions (Flask/Localhost)"
+    }
+  },
+  "block_diagram_flow": [
+    "User Input",
+    "Menu Controller",
+    "Validation",
+    "Storage (JSON/CSV) & Analytics (Trends, Triggers)",
+    "Output Dashboard / Reports"
+  ],
+  "why_this_project": [
+    "Encourages application of Python fundamentals.",
+    "Provides a real-world solution.",
+    "Scalable to advanced versions.",
+    "Strengthens coding confidence through structured design."
+  ],
+  "expected_outcome": "By completing this project, students will gain hands-on experience in Python programming, problem-solving, and structured application development. The final output will be a functional, console-based system with real-world utility that can later be expanded into GUI or web-based solutions."
+}

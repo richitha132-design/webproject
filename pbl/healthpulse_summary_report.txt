@@ -1,0 +1,41 @@
+============================================================
+      HEALTHPULSE: COMPREHENSIVE HEALTH SUMMARY REPORT
+      Generated On: 2026-11-03 14:22:22
+============================================================
+
+User: Alex Morgan | Blood Group: B+
+Total Recorded Episodes: 5
+Average Severity: 6.0/10
+
+Top Triggers:
+ - Lack Of Sleep: 2 occurrence(s)
+ - Eye Strain: 1 occurrence(s)
+ - Spicy Food: 1 occurrence(s)
+ - Late Meal: 1 occurrence(s)
+ - Poor Posture: 1 occurrence(s)
+ - Long Sitting: 1 occurrence(s)
+ - Stress: 1 occurrence(s)
+ - Cold Weather: 1 occurrence(s)
+ - Dust: 1 occurrence(s)
+
+Detailed History:
+[SYM-1001] 2026-11-01 08:30 - Tension Headache (Sev: 4/10, Neurological)
+    Triggers: Lack of sleep, Eye strain
+    Medication: Paracetamol 500mg | Notes: Relieved after dark room rest
+
+[SYM-1002] 2026-11-01 19:15 - Acid Reflux (Sev: 6/10, Digestive)
+    Triggers: Spicy food, Late meal
+    Medication: Antacid gel | Notes: After having street food
+
+[SYM-1003] 2026-11-02 14:00 - Lower Back Ache (Sev: 5/10, Musculoskeletal)
+    Triggers: Poor posture, Long sitting
+    Medication: Hot compress | Notes: Felt during long coding hours
+
+[SYM-1004] 2026-11-03 09:00 - Migraine (Sev: 8/10, Neurological)
+    Triggers: Lack of sleep, Stress
+    Medication: Ibuprofen 400mg | Notes: Pulsating pain, sensitivity to light
+
+[SYM-1005] 2026-11-03 14:22 - Acute Sinus Pressure (Sev: 7/10, Respiratory)
+    Triggers: Cold weather, Dust
+    Medication: Saline rinse & Decongestant | Notes: Symptoms manifested during outdoor commute.
+

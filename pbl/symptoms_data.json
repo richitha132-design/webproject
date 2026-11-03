@@ -1,0 +1,113 @@
+{
+  "user": {
+    "user_id": "PT-94820",
+    "name": "Richitha",
+    "email": "richitha132@gmail.com",
+    "age": 22,
+    "gender": "Female",
+    "blood_group": "B+",
+    "weight_kg": 54,
+    "height_cm": 162,
+    "allergies": [
+      "Sulfa Drugs",
+      "Penicillin"
+    ],
+    "chronic_conditions": [
+      "Mild Asthma",
+      "Occasional Migraines"
+    ],
+    "emergency_contact": "+91 98765 43210",
+    "primary_physician": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+    "vitals": {
+      "blood_pressure": "118/76",
+      "heart_rate_bpm": 74,
+      "spo2_percent": 98,
+      "temperature_f": 98.6,
+      "last_updated": "2026-11-03 12:00"
+    }
+  },
+  "symptoms": [
+    {
+      "id": "SYM-1004",
+      "date": "2026-11-02",
+      "time": "09:00",
+      "symptom": "Severe Migraine with Aura",
+      "category": "Neurological",
+      "body_location": "Head & Face",
+      "severity": 8,
+      "duration_hours": 5.5,
+      "triggers": [
+        "Lack of sleep",
+        "Work stress",
+        "Bright light"
+      ],
+      "medication": "Sumatriptan 50mg",
+      "relief_status": "Partially Relieved",
+      "notes": "Pulsating pain accompanied by nausea and photophobia."
+    },
+    {
+      "id": "SYM-1005",
+      "date": "2026-11-03",
+      "time": "11:20",
+      "symptom": "Wheezing & Sinus Congestion",
+      "category": "Respiratory",
+      "body_location": "Chest & Lungs",
+      "severity": 7,
+      "duration_hours": 3.0,
+      "triggers": [
+        "Cold weather",
+        "Dust & Pollen"
+      ],
+      "medication": "Salbutamol Inhaler (2 puffs)",
+      "relief_status": "Fully Relieved",
+      "notes": "Chest tightness relieved 15 minutes post bronchodilator."
+    },
+    {
+      "id": "SYM-1006",
+      "date": "2026-11-03",
+      "time": "17:31",
+      "symptom": "back pain",
+      "category": "Neurological",
+      "body_location": "Frontal / Temples",
+      "severity": 5,
+      "duration_hours": 2.0,
+      "triggers": [],
+      "notes": "N/A"
+    },
+    {
+      "id": "SYM-1007",
+      "date": "2026-11-03",
+      "time": "17:35",
+      "symptom": "Acute Sinus Congestion",
+      "category": "Respiratory",
+      "severity": 7,
+      "duration_hours": 3.0,
+      "triggers": [
+        "Cold weather",
+        "Pollen"
+      ],
+      "notes": "Breathing difficulty during morning hours."
+    },
+    {
+      "id": "SYM-1008",
+      "date": "2026-11-03",
+      "time": "17:55",
+      "symptom": "Acute Sinus Congestion",
+      "category": "Respiratory",
+      "severity": 7,
+      "duration_hours": 3.0,
+      "triggers": [
+        "Cold weather",
+        "Pollen"
+      ],
+      "notes": "Breathing difficulty during morning hours."
+    }
+  ],
+  "environmental_factors": {
+    "current_weather": "Cloudy, 18\u00b0C",
+    "humidity": "74%",
+    "air_quality_index": 82,
+    "barometric_pressure": "1012 hPa",
+    "pollen_level": "Moderate"
+  }
+}
